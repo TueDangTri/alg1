@@ -11,9 +11,9 @@ public class Permutations {
 		int len = sc.nextInt();
 		int arr[] = new int[len];
 		
+		// first option
 		Random num = new Random();
 		int numAdd = Math.abs(num.nextInt() % len) + 1;
-		
 		for (int i = 0; i < len; i++) {
 			arr[i] = (numAdd++) % len;
 		}
@@ -22,6 +22,9 @@ public class Permutations {
 			System.out.print(i + " ");
 		}
 		System.out.println();
+			
+		
+		
 	}
 
 }
